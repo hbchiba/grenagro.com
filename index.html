@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GreenAgro</title>
+    <meta
+      name="description"
+      content="Investments in stability and confidence in the future"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="og:title" content="GreenAgro" />
+    <meta
+      name="og:description"
+      content="Investments in stability and confidence in the future"
+    />
+    <meta name="og:image" content="https://grenagro.com/img/img.png" />
+    <meta name="og:url" content="https://grenagro.com/" />
+    <meta name="og:type" content="website" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="images/logo_16.png" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/logo_32.png"
+    />
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo_32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo_180.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="stylesheet" href="css/app.min.css" />
+    <style>
+      @keyframes glowing {
+        0% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+        50% {
+          background-color: #49e819;
+          box-shadow: 0 0 35px 6px #49e819;
+        }
+        100% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+      }
+      @keyframes botd {
+        0% {
+          margin: 7px;
+        }
+        50% {
+          margin: 9px;
+        }
+        100% {
+          margin: 7px;
+        }
+      }
+
+      .button {
+        width: auto;
+        position: fixed;
+        right: 25px;
+        bottom: 100px;
+        z-index: 999;
+        background: linear-gradient(
+          90deg,
+          rgb(75, 149, 144) 0%,
+          rgb(22, 203, 190) 35%,
+          rgb(76, 148, 143) 100%
+        );
+        padding: 0;
+        border-radius: 100%;
+        animation: glowing 1000ms infinite;
+      }
+      .bot {
+        margin: 7px;
+        height: 42px;
+        width: 42px;
+        animation: botd 1000ms infinite;
+      }
+    </style>
+  </head>
+
+  <body class>
+    <header class="header">
+      <div class="container">
+        <div class="row g-0 align-items-center justify-content-between">
+          <div class="col-auto">
+            <a href="/" class="logo header__logo">
+              <img src="fonts/logo.svg" alt="GreenAgro" class="logo__img" />
+            </a>
+          </div>
+          <div class="col-auto">
+            <div class="header__menu">
+              <nav class="header__nav">
+                <ul>
+                  <li><a href="/" class="active">Main page</a></li>
+                  <li><a href="/about.html">About us</a></li>
+                  <li><a href="/reviews.html">Reviews (<b>625</b>)</a></li>
+                  <li><a href="/faq.html">FAQ</a></li>
+                  <li><a href="/bounty.html">Bounty</a></li>
+                  <li><a href="/support.html">Support</a></li>
+                </ul>
+              </nav>
+              <div
+                class="header__controls d-flex d-xl-none align-items-center justify-content-center"
+              >
+                <a href="/login.html" class="link link-white header__control">
+                  <img
+                    src="fonts/icon-user-accent.svg"
+                    alt="alt"
+                    class="link__icon-left"
+                  />
+                  <span class="link__title">Log in</span>
+                </a>
+                <a
+                  href="/register.html"
+                  class="btn btn-small btn-solid-white-accent-second btn-round header__btn"
+                  >Registration</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="header__content d-flex align-items-center">
+              <div class="lang header__lang js-list-item">
+                <button class="lang-control js-list-item-control">
+                  <img
+                    src="fonts/en.svg"
+                    alt="EN"
+                    class="lang-control__icon"
+                    style="margin-right: 3px"
+                  />
+                  <span class="lang-item__title" style="color: #dedc7c"
+                    >EN</span
+                  >
+                  <img
+                    src="fonts/icon-arrow-down-white.svg"
+                    alt="alt"
+                    class="lang-control__arrow"
+                  />
+                </button>
+                <div class="lang-list js-list-item-content">
+                  <a href="?language=tr" class="lang-item">
+                    <img src="fonts/tr.svg" alt="TR" class="lang-item__icon" />
+                    <span class="lang-item__title">TR</span>
+                  </a>
+                  <a href="?language=es" class="lang-item">
+                    <img src="fonts/es.svg" alt="ES" class="lang-item__icon" />
+                    <span class="lang-item__title">ES</span>
+                  </a>
+                  <a href="?language=fr" class="lang-item">
+                    <img src="fonts/fr.svg" alt="FR" class="lang-item__icon" />
+                    <span class="lang-item__title">FR</span>
+                  </a>
+                  <a href="?language=pt" class="lang-item">
+                    <img src="fonts/pt.svg" alt="PT" class="lang-item__icon" />
+                    <span class="lang-item__title">PT</span>
+                  </a>
+                  <a href="?language=vi" class="lang-item">
+                    <img src="fonts/vi.svg" alt="VI" class="lang-item__icon" />
+                    <span class="lang-item__title">VI</span>
+                  </a>
+                  <a href="?language=id" class="lang-item">
+                    <img src="fonts/id.svg" alt="ID" class="lang-item__icon" />
+                    <span class="lang-item__title">ID</span>
+                  </a>
+                  <a href="?language=ka" class="lang-item">
+                    <img src="fonts/ka.svg" alt="KA" class="lang-item__icon" />
+                    <span class="lang-item__title">KA</span>
+                  </a>
+                  <a
+                    href="?language=it"
+                    class="lang-item"
+                    style="pointer-events: none; opacity: 0.3"
+                  >
+                    <img src="fonts/it.svg" alt="IT" class="lang-item__icon" />
+                    <span class="lang-item__title">IT</span>
+                  </a>
+                  <a
+                    href="?language=ru"
+                    class="lang-item"
+                    style="pointer-events: none; opacity: 0.3"
+                  >
+                    <img src="fonts/ru.svg" alt="RU" class="lang-item__icon" />
+                    <span class="lang-item__title">RU</span>
+                  </a>
+                  <a
+                    href="?language=ar"
+                    class="lang-item"
+                    style="pointer-events: none; opacity: 0.3"
+                  >
+                    <img src="fonts/ar.svg" alt="AR" class="lang-item__icon" />
+                    <span class="lang-item__title">AR</span>
+                  </a>
+                  <a
+                    href="?language=de"
+                    class="lang-item"
+                    style="pointer-events: none; opacity: 0.3"
+                  >
+                    <img src="fonts/de.svg" alt="DE" class="lang-item__icon" />
+                    <span class="lang-item__title">DE</span>
+                  </a>
+                  <a
+                    href="?language=th"
+                    class="lang-item"
+                    style="pointer-events: none; opacity: 0.3"
+                  >
+                    <img src="fonts/th.svg" alt="TH" class="lang-item__icon" />
+                    <span class="lang-item__title">TH</span>
+                  </a>
+                </div>
+              </div>
+              <div class="header__controls d-none d-md-flex align-items-center">
+                <a href="/login.html" class="link link-white header__control">
+                  <img
+                    src="fonts/icon-user-accent.svg"
+                    alt="alt"
+                    class="link__icon-left"
+                  />
+                  <span class="link__title">Log in</span>
+                </a>
+                <a
+                  href="/register.html"
+                  class="btn btn-small btn-solid-white-accent-second btn-round header__btn"
+                  >Registration</a
+                >
+              </div>
+              <button
+                class="d-xl-none sandwich sandwich-white header__sandwich js-toggle-menu"
+              >
+                <span class="sandwich__inner"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="screen">
+        <img
+          src="images/bg-screen-main.jpg"
+          alt="alt"
+          class="d-none d-md-block screen__bg img-crop"
+        />
+        <div class="container container-relative">
+          <div class="screen__container">
+            <div class="screen__content w-color">
+              <div class="screen__title">
+                <h1>Investments in stability and future security!</h1>
+              </div>
+              <div class="screen__descr content">
+                <p>
+                  The economy is going into overdrive, one crisis follows
+                  another. There is only one thing that stays permanent - the
+                  high demand for food.
+                </p>
+              </div>
+              <div class="screen__btns d-flex align-items-center flex-wrap">
+                <a
+                  href="/deposit.html"
+                  class="btn btn-middle btn-round btn-fill-accent-second screen__btn"
+                  >Start investing</a
+                >
+                <a href="/about.html" class="link link-white screen__link"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+            <div class="advantages">
+              <div class="advantages__row d-flex align-items-center flex-wrap">
+                <div class="advantages-item w-color">
+                  <div class="advantages-item__title">Investors</div>
+                  <div class="advantages-item__number">15 048</div>
+                </div>
+                <div class="advantages-item w-color">
+                  <div class="advantages-item__title">Online users</div>
+                  <div class="advantages-item__number">1 209</div>
+                </div>
+                <div class="advantages-item w-color">
+                  <div class="advantages-item__title">Invested</div>
+                  <div class="advantages-item__number">$2.0 M</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section two-cols">
+        <div class="container">
+          <div class="section__top">
+            <div class="section__row d-flex flex-wrap justify-content-between">
+              <div class="section__left">
+                <div class="section__title">
+                  <h2>Why <mark>agriculture</mark></h2>
+                </div>
+              </div>
+              <div class="section__right">
+                <div class="section__descr content">
+                  <p>
+                    <mark>People depend on food.</mark> Thus agricultural
+                    development is of primary importance for any state. Most
+                    countries support their agricultural producers, providing
+                    them with the most favorable terms for cooperation.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="two-cols__row d-flex flex-wrap justify-content-between">
+            <div class="two-cols__left">
+              <img
+                src="fonts/logo-big.svg"
+                alt="Granagro"
+                class="two-cols__logo"
+              />
+              <div class="two-cols__content content">
+                <p>
+                  High-quality and environmentally friendly food products are in
+                  high demand in the market.
+                </p>
+                <p>
+                  The cost of manufactured agricultural products is constantly
+                  growing, thereby increasing investors income. Agricultural
+                  manufacture sees no danger in crisis since people always need
+                  food.
+                </p>
+                <p>
+                  <b><mark>GreenAgro</mark></b> has considerable agriculture
+                  experience, pay great attention to investing in agricultural
+                  companies engaged in the cultivation of organic food.
+                </p>
+              </div>
+            </div>
+            <div class="two-cols__right">
+              <div class="two-cols__miniature">
+                <img
+                  src="images/two-cols-why-small.jpg"
+                  alt="alt"
+                  class="img-crop"
+                />
+              </div>
+              <div class="two-cols__img">
+                <img src="images/two-cols-why.jpg" alt="alt" class="img-crop" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section packs" id="tar">
+        <div class="container">
+          <div class="section__top">
+            <div class="section__row d-flex flex-wrap justify-content-center">
+              <div class="section__title section__title-center">
+                <h2>Our <mark>investment packages</mark></h2>
+              </div>
+            </div>
+          </div>
+          <div class="packs__row d-flex flex-wrap">
+            <div class="d-none d-md-flex packs__left">
+              <div class="packs__info">
+                <div class="packs__controls d-flex align-items-center">
+                  <button class="slider-btn js-packs-slider-prev">
+                    <img
+                      src="fonts/icon-slider-prev.svg"
+                      alt="Prev"
+                      class="slider-btn__icon"
+                    />
+                  </button>
+                  <button class="slider-btn js-packs-slider-next">
+                    <img
+                      src="fonts/icon-slider-next.svg"
+                      alt="Next"
+                      class="slider-btn__icon"
+                    />
+                  </button>
+                </div>
+                <div class="gray-3-color packs__element">Amount</div>
+                <div class="gray-3-color packs__element">Net profit</div>
+                <div class="gray-3-color packs__element">Term</div>
+                <div class="gray-3-color packs__element">Hourly profit</div>
+                <div class="gray-3-color packs__element">Payouts</div>
+              </div>
+            </div>
+            <div class="packs__right">
+              <div class="packs__slider">
+                <div class="swiper js-packs-slider">
+                  <div class="swiper-wrapper">
+                    <style>
+                      #eee {
+                        width: 311.333px;
+                        background: rgba(76, 148, 143, 0.2);
+                        padding: 10px;
+                        border-radius: 33px;
+                        margin-right: 20px;
+                      }
+                    </style>
+                    <div class="swiper-slide">
+                      <div class="packs-slide">
+                        <div class="packs-slide__top">
+                          <div class="bd-font packs-slide__percents">
+                            Active
+                          </div>
+                          <div class="packs-slide__title h4">
+                            105% for 24 hours
+                          </div>
+                        </div>
+                        <div class="packs-slide__bottom">
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Amount</span> <c id="minmaxMoneyu1"></c>
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Net profit</span>5%
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Term</span> 24 hours
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Hourly profit</span>4.375%
+                          </div>
+                          <div class="accent-color packs-slide__element">
+                            <span>Payouts</span>Instant payouts
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="packs-slide">
+                        <div class="packs-slide__top">
+                          <div class="bd-font packs-slide__percents">Вasic</div>
+                          <div class="packs-slide__title h4">
+                            110% for 1 day
+                          </div>
+                        </div>
+                        <div class="packs-slide__bottom">
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Amount</span> <c id="minmaxMoneyu2"></c>
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Net profit</span>10%
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Term</span> 1 day
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Hourly profit</span>-
+                          </div>
+                          <div class="accent-color packs-slide__element">
+                            <span>Payouts</span>Instant payouts
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="packs-slide">
+                        <div class="packs-slide__top">
+                          <div class="bd-font packs-slide__percents">Profi</div>
+                          <div class="packs-slide__title h4">
+                            240% for 6 days
+                          </div>
+                        </div>
+                        <div class="packs-slide__bottom">
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Amount</span> <c id="minmaxMoneyu3"></c>
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Net profit</span>140%
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Term</span> 6 days
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Hourly profit</span>-
+                          </div>
+                          <div class="accent-color packs-slide__element">
+                            <span>Payouts</span>Instant payouts
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="packs-slide">
+                        <div class="packs-slide__top">
+                          <div class="bd-font packs-slide__percents">
+                            Premium
+                          </div>
+                          <div class="packs-slide__title h4">
+                            1200% for 14 days
+                          </div>
+                        </div>
+                        <div class="packs-slide__bottom">
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Amount</span> <c id="minmaxMoneyu4"></c>
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Net profit</span>1100%
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Term</span> 14 days
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Hourly profit</span>-
+                          </div>
+                          <div class="accent-color packs-slide__element">
+                            <span>Payouts</span>Instant payouts
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="packs-slide">
+                        <div class="packs-slide__top">
+                          <div class="bd-font packs-slide__percents">Vip</div>
+                          <div class="packs-slide__title h4">
+                            2900% for 30 days
+                          </div>
+                        </div>
+                        <div class="packs-slide__bottom">
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Amount</span> <c id="minmaxMoneyu5"></c>
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Net profit</span>2800%
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Term</span> 30 days
+                          </div>
+                          <div class="gray-3-color packs-slide__element">
+                            <span>Hourly profit</span>-
+                          </div>
+                          <div class="accent-color packs-slide__element">
+                            <span>Payouts</span>Instant payouts
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section calc">
+        <div class="container">
+          <form class="calc__wrapper js-currency">
+            <div class="w-color section__top calc__top d-flex align-items-end">
+              <div class="calc__title section__title-accent-second">
+                <h2><mark>Calculate your income</mark> right now</h2>
+              </div>
+              <div class="calc__descr content">
+                <p>
+                  Select the best-suited rate, and the desired coin, and also
+                  indicate the amount of investment that you want to increase.
+                </p>
+              </div>
+            </div>
+            <div class="calc-block">
+              <div class="accent-lt-color calc-block__label">Select Rate</div>
+              <div class="calc-currencies d-none d-md-flex">
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="plans"
+                    checked
+                    value="1"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <span class="calc-currency__title">ACTIVE 105 %</span>
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="plans"
+                    value="2"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <span class="calc-currency__title">ВASIC 110 %</span>
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="plans"
+                    value="3"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <span class="calc-currency__title">PROFI 240 %</span>
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="plans"
+                    value="4"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <span class="calc-currency__title">PREMIUM 1200 %</span>
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="plans"
+                    value="5"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <span class="calc-currency__title">VIP 2900 %</span>
+                  </span>
+                </label>
+              </div>
+              <br />
+
+              <div class="calc-currencies-mobile d-md-none">
+                <div
+                  class="input input-accent-dk select js-list-item js-select calc-currencies__payment"
+                >
+                  <div class="select__field input__field js-list-item-control">
+                    <div class="select__value js-select-value w-color h2-small">
+                      <span class="js-currency-element-title"
+                        >Active 105 %</span
+                      >
+                    </div>
+                  </div>
+                  <div class="select__variants js-list-item-content">
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <span class="js-currency-element-title"
+                        >ACTIVE 105 %</span
+                      >
+                      <input
+                        name="plans"
+                        checked
+                        value="1"
+                        hidden
+                        type="radio"
+                      />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <span class="js-currency-element-title">ВASIC 110 %</span>
+                      <input name="plans" value="2" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <span class="js-currency-element-title">PROFI 240 %</span>
+                      <input name="plans" value="3" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <span class="js-currency-element-title"
+                        >PREMIUM 1200 %</span
+                      >
+                      <input name="plans" value="4" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <span class="js-currency-element-title">VIP 2900 %</span>
+                      <input name="plans" value="5" hidden type="radio" />
+                    </label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accent-lt-color calc-block__label">Select coin</div>
+              <div class="calc-currencies d-none d-md-flex">
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    checked
+                    value="btc"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/btc.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >BTC</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="eth"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/eth.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >ETH</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="ltc"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/ltc.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >LTC</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="doge"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/doge_1.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >DOGE</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="xrp"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/xrp.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >XRP</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="bnb"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/bnb.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >BNB</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="trx"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/trx.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >TRX</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="usdt_bep20"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/usdt_bep20.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >USDT</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="usdt_trc20"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/usdt_trc20.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >USDT</span
+                    >
+                  </span>
+                </label>
+                <label class="calc-currency js-currency-element">
+                  <input
+                    type="radio"
+                    class="calc-currency__old"
+                    name="pays"
+                    value="usdt_erc20"
+                    hidden
+                  />
+                  <span class="calc-currency__inner">
+                    <img
+                      src="fonts/usdt_erc20.svg"
+                      class="crypts-item__icon"
+                      style="height: 26px; margin: 5px"
+                    />
+                    <span class="calc-currency__title js-currency-element-title"
+                      >USDT</span
+                    >
+                  </span>
+                </label>
+              </div>
+              <div class="calc-currencies-mobile d-md-none">
+                <div
+                  class="input input-accent-dk select js-list-item js-select calc-currencies__payment"
+                >
+                  <div class="select__field input__field js-list-item-control">
+                    <div class="select__value js-select-value w-color h2-small">
+                      <img src="fonts/usdt_bep20_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">USDT</span>
+                    </div>
+                  </div>
+                  <div class="select__variants js-list-item-content">
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/btc_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">BTC</span>
+                      <input name="pays" value="btc" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/eth_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">ETH</span>
+                      <input name="pays" value="eth" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/ltc_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">LTC</span>
+                      <input name="pays" value="ltc" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/doge.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">DOGE</span>
+                      <input name="pays" value="doge" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/xrp_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">XRP</span>
+                      <input name="pays" value="xrp" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/bnb_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">BNB</span>
+                      <input name="pays" value="bnb" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/trx_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">TRX</span>
+                      <input name="pays" value="trx" hidden type="radio" />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/usdt_bep20_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">USDT</span>
+                      <input
+                        name="pays"
+                        checked
+                        value="usdt_bep20"
+                        hidden
+                        type="radio"
+                      />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/usdt_trc20_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">USDT</span>
+                      <input
+                        name="pays"
+                        value="usdt_trc20"
+                        hidden
+                        type="radio"
+                      />
+                    </label>
+                    <label
+                      class="select-variant js-select-variant js-currency-element"
+                    >
+                      <img src="fonts/usdt_erc20_1.svg" style="height: 20px" />
+                      <span class="js-currency-element-title">USDT</span>
+                      <input
+                        name="pays"
+                        value="usdt_erc20"
+                        hidden
+                        type="radio"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="calc-block">
+              <div class="accent-lt-color calc-block__label">
+                Investment amount <br /><b
+                  id="minmaxMoneyu"
+                  style="color: #dedc7c"
+                ></b>
+                <br /><b id="ptext" style="color: red"></b>
+              </div>
+              <label class="input input-accent-dk calc-block__input">
+                <input
+                  type="text"
+                  id="amount"
+                  value="0"
+                  class="input__field input__field-center calc-block__field h2 w-color"
+                />
+                <span class="input__info input__info-default" id="texval00">
+                </span>
+              </label>
+            </div>
+            <div class="calc-block">
+              <div class="calc-block__row d-flex flex-wrap align-items-end">
+                <div class="calc-block__col calc-block__col-big" id="hidchas">
+                  <div class="accent-lt-color calc-block__label">
+                    Hourly accrual
+                  </div>
+                  <label class="input input-accent-dk calc-block__input">
+                    <b
+                      class="input__field calc-block__field h2-small accent-second-color"
+                      id="daytexval0"
+                    >
+                    </b>
+                    <span class="input__info input__info-default" id="texval0">
+                    </span>
+                  </label>
+                </div>
+                <div class="calc-block__col calc-block__col-big">
+                  <div class="accent-lt-color calc-block__label">
+                    Total profit
+                  </div>
+                  <label class="input input-accent-dk calc-block__input">
+                    <b
+                      class="input__field calc-block__field h2-small accent-second-color"
+                      id="daytexval"
+                    >
+                    </b>
+                    <span class="input__info input__info-default" id="texval">
+                    </span>
+                  </label>
+                </div>
+                <div class="calc-block__col calc-block__col-big">
+                  <div class="accent-lt-color calc-block__label">
+                    Net profit
+                  </div>
+                  <label class="input input-accent-dk calc-block__input">
+                    <b
+                      class="input__field calc-block__field h2-small accent-second-color"
+                      id="daytexval2"
+                    >
+                    </b>
+                    <span class="input__info input__info-default" id="texval2">
+                    </span>
+                  </label>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="calc-block__col calc-block__col-small"
+              style="width: calc(100% - 20px)"
+            >
+              <a
+                href="/deposit.html"
+                class="btn btn-middle btn-round btn-fill-accent-second calc-block__submit"
+                >Invest</a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="section benefits">
+        <div class="container">
+          <div class="section__top">
+            <div class="section__row d-flex flex-wrap justify-content-center">
+              <div class="section__title section__title-center">
+                <h2><mark>Advantages</mark> invest with us together</h2>
+              </div>
+            </div>
+          </div>
+          <div class="benefits__row">
+            <div class="benefits__col benefits__col-main">
+              <div class="benefits__row">
+                <div class="benefits__col">
+                  <div
+                    class="benefits-item benefits-item-vertical benefits-item-small"
+                  >
+                    <img src="images/img-1.jpg" alt="alt" class="img-crop" />
+                    <div class="bd-font w-color benefits-item__title">
+                      Organic food
+                    </div>
+                  </div>
+                  <div
+                    class="benefits-item benefits-item-vertical benefits-item-small"
+                  >
+                    <img src="images/img-2.jpg" alt="alt" class="img-crop" />
+                    <div class="bd-font w-color benefits-item__title">
+                      Quality control with NFT
+                    </div>
+                  </div>
+                </div>
+                <div class="benefits__col">
+                  <div class="benefits-item">
+                    <img src="images/img-3.jpg" alt="alt" class="img-crop" />
+                    <div class="bd-font w-color benefits-item__title">
+                      Implementation of control at all production stages and
+                      delivery of agricultural products
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="benefits__col benefits__col-main">
+              <div
+                class="benefits-item benefits-item-vertical benefits-item-long"
+              >
+                <img src="images/img-4.jpg" alt="alt" class="img-crop" />
+                <div class="bd-font w-color benefits-item__title">
+                  Constantly growing demand for the product
+                </div>
+              </div>
+              <div class="benefits__row">
+                <div class="benefits__col">
+                  <div class="benefits-item benefits-item-small">
+                    <img src="images/img-5.jpg" alt="alt" class="img-crop" />
+                    <div class="bd-font w-color benefits-item__title">
+                      Increased amount of products supplied
+                    </div>
+                  </div>
+                </div>
+                <div class="benefits__col">
+                  <div class="benefits-item benefits-item-small">
+                    <img src="images/img-6.jpg" alt="alt" class="img-crop" />
+                    <div class="bd-font w-color benefits-item__title">
+                      The largest farms and greenhouses in the region
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section program">
+        <div class="container">
+          <div class="program__row d-flex flex-wrap">
+            <div class="program__col">
+              <div class="section__top">
+                <div class="section__title">
+                  <h2><mark>Investment</mark> program</h2>
+                </div>
+              </div>
+              <div class="program__content content">
+                <p>
+                  Still greater opportunities in the most stable and much-needed
+                  agricultural market for people.
+                </p>
+                <p>
+                  To increase our ability to support and invest in agribusiness
+                  and agricultural producers, we have designed a special
+                  investment program that enables everyone to earn money in the
+                  most stable and much-needed agricultural market for people.
+                </p>
+                <p>
+                  No food - no life, so the demand for food will be constantly
+                  increasing.
+                  <mark>Agribusiness sees no danger in any crisis.</mark>
+                </p>
+                <p>
+                  Thus we provide our investors with most favorable terms on the
+                  market.
+                </p>
+                <p>
+                  Check out our investment program and choose the best-suited
+                  investment plan for you.
+                </p>
+              </div>
+              <a
+                href="#tar"
+                class="btn btn-round btn-middle btn-fill-accent-second program__btn"
+                >To investment plans</a
+              >
+            </div>
+            <div class="program__col w-color">
+              <div class="program__partnership">
+                <div class="program__inner">
+                  <div class="section__top">
+                    <div class="section__title">
+                      <h2><b>Partnership</b> program</h2>
+                    </div>
+                  </div>
+                  <div class="program__content content">
+                    <p><b>Earn even more by promoting GreenAgro.</b></p>
+                    <p>
+                      Everyone needs food. Promote GreenAgro, thereby investing
+                      in agribusiness development and support for agricultural
+                      producers..
+                    </p>
+                    <p>
+                      Sign up on the GreenAgro website and enter your personal
+                      account to use your unique referral link and advertising
+                      materials developed by our experts.
+                    </p>
+                  </div>
+                  <div class="program-numbers">
+                    <div class="program-numbers__row d-flex flex-wrap">
+                      <div class="program-number">
+                        <div
+                          class="bd-font text-grad-accent-second program-number__percent"
+                        >
+                          6%
+                        </div>
+                        <div class="md-font program-number__title">1 Level</div>
+                      </div>
+                      <div class="program-number">
+                        <div
+                          class="bd-font text-grad-accent-second program-number__percent"
+                        >
+                          2%
+                        </div>
+                        <div class="md-font program-number__title">2 Level</div>
+                      </div>
+                      <div class="program-number">
+                        <div
+                          class="bd-font text-grad-accent-second program-number__percent"
+                        >
+                          1%
+                        </div>
+                        <div class="md-font program-number__title">3 Level</div>
+                      </div>
+                      <div class="program-number">
+                        <div
+                          class="bd-font text-grad-accent-second program-number__percent"
+                        >
+                          1%
+                        </div>
+                        <div class="md-font program-number__title">4 Level</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="program__content content">
+                    <p>
+                      <b
+                        >GreenAgro brings you infinite opportunities for earning
+                        money via an affiliate program. The stronger you promote
+                        GreenAgro, the more you earn!</b
+                      >
+                    </p>
+                  </div>
+                  <a
+                    href="/register.html"
+                    class="btn btn-round btn-middle btn-fill-accent-second program__btn"
+                    >Sign up</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section begin">
+        <div class="container">
+          <div class="section__top">
+            <div class="section__title section__title-center">
+              <h2>Start <mark>investing today</mark></h2>
+            </div>
+          </div>
+          <div class="begin__items d-flex flex-wrap">
+            <div class="begin-item">
+              <div class="sb-font begin-item__number">01</div>
+              <div class="begin-item__title">Registration</div>
+              <div class="begin-item__descr">
+                Complete a simple registration, the procedure will take less
+                than 5 minutes.
+              </div>
+            </div>
+            <div class="begin-item">
+              <div class="sb-font begin-item__number">02</div>
+              <div class="begin-item__title">Deposit</div>
+              <div class="begin-item__descr">
+                Make your first deposit and get a personal bonus.
+              </div>
+            </div>
+            <div class="begin-item begin-item-accent">
+              <img
+                src="images/bg-begin-accent.jpg"
+                alt="alt"
+                class="img-crop"
+              />
+              <div class="sb-font begin-item__number">03</div>
+              <div class="begin-item__title">
+                Get profit from the first day.
+              </div>
+              <a
+                href="/deposit.html"
+                class="btn btn-round btn-fill-accent-second btn-middle begin-item__btn"
+                >Invest</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section stat">
+        <div class="container">
+          <div class="section__top">
+            <div class="section__title section__title-center">
+              <h2><mark>Statistics</mark></h2>
+            </div>
+          </div>
+          <div class="stat__container">
+            <div class="stat__info">
+              <div class="stat-item">
+                <img
+                  src="fonts/icon-calendar-accent.svg"
+                  alt="alt"
+                  class="stat-item__icon"
+                />
+                <div class="w-color stat-item__content">
+                  <div class="label stat-item__label">Working days</div>
+                  <div class="stat-item__number sb-font">5</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <img
+                  src="fonts/icon-dollar-accent.svg"
+                  alt="alt"
+                  class="stat-item__icon"
+                />
+                <div class="w-color stat-item__content">
+                  <div class="label stat-item__label">Invested</div>
+                  <div class="stat-item__number sb-font">$2.0 M</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <img
+                  src="fonts/icon-peoples-accent.svg"
+                  alt="alt"
+                  class="stat-item__icon"
+                />
+                <div class="w-color stat-item__content">
+                  <div class="label stat-item__label">Investors</div>
+                  <div class="stat-item__number sb-font">15 048</div>
+                </div>
+              </div>
+              <div class="stat-item">
+                <img
+                  src="fonts/icon-peoples-accent.svg"
+                  alt="alt"
+                  class="stat-item__icon"
+                />
+                <div class="w-color stat-item__content">
+                  <div class="label stat-item__label">Online users</div>
+                  <div class="stat-item__number sb-font">1 209</div>
+                </div>
+              </div>
+            </div>
+            <div class="stat__row d-flex flex-wrap">
+              <div class="stat-col">
+                <div class="sb-font h3 stat-col__title">Last deposits</div>
+                <div class="stat-col__items">
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Int...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>137</b> trx</div>
+                      <img
+                        src="fonts/trx.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Par...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>12</b> usdt</div>
+                      <img
+                        src="fonts/usdt_bep20.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Bea...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>0.34</b> eth</div>
+                      <img
+                        src="fonts/eth.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Kam...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>0.7278</b> ltc
+                      </div>
+                      <img
+                        src="fonts/ltc.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Lgk...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>10</b> usdt</div>
+                      <img
+                        src="fonts/usdt_trc20.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">app...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>4000</b> trx</div>
+                      <img
+                        src="fonts/trx.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Kel...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>500</b> usdt</div>
+                      <img
+                        src="fonts/usdt_bep20.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="stat-col">
+                <div class="sb-font h3 stat-col__title">Last payouts</div>
+                <div class="stat-col__items">
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">ryr...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>135.1</b> trx
+                      </div>
+                      <img
+                        src="fonts/trx.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">bes...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>306.25</b> usdt
+                      </div>
+                      <img
+                        src="fonts/usdt_bep20.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Lyo...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>325.66</b> trx
+                      </div>
+                      <img
+                        src="fonts/trx.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">ali...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>0.4584</b> ltc
+                      </div>
+                      <img
+                        src="fonts/ltc.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">ali...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>0.05093</b> ltc
+                      </div>
+                      <img
+                        src="fonts/ltc.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Gaz...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price">
+                        <b>52.76</b> trx
+                      </div>
+                      <img
+                        src="fonts/trx.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="stat-col__item d-flex flex-wrap align-items-center justify-content-between"
+                  >
+                    <div class="stat-col__left d-flex">
+                      <div class="stat-col__nickname">Dod...</div>
+                    </div>
+                    <div class="stat-col__right d-flex">
+                      <div class="sb-font stat-col__price"><b>1225</b> trx</div>
+                      <img
+                        src="fonts/trx.svg"
+                        style="height: 30px"
+                        class="stat-col__icon"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section crypts">
+        <div class="container">
+          <div class="section__top">
+            <div class="section__title section__title-center">
+              <h2>Payment <mark>systems</mark></h2>
+            </div>
+          </div>
+          <div class="crypts__wrapper">
+            <div class="crypts__items">
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/btc.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">BitCoin</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/eth.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">Ethereum</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/ltc.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">LiteCoin</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/doge_1.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">DogeCoin</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/xrp.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">Ripple</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/bnb.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">BinanceCoin (BEP-20)</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/trx.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">Tron</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/usdt_bep20.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">USDT (BEP20)</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/usdt_trc20.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">USDT (TRC20)</div>
+                </div>
+              </div>
+              <div class="crypts-item">
+                <div class="crypts-item__inner">
+                  <img
+                    src="fonts/usdt_erc20.svg"
+                    alt="alt"
+                    class="crypts-item__icon"
+                  />
+                  <div class="crypts-item__title">USDT (ERC20)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <script src="//code.jivo.ru/widget/0GnJpzMBYW" async></script> -->
+
+    <footer class="footer">
+      <div class="footer__top">
+        <div class="container">
+          <div class="row g-0 justify-content-between">
+            <div class="col-md-auto">
+              <div class="footer__main">
+                <a href="/" class="logo footer__logo">
+                  <img
+                    src="fonts/logo-footer.svg"
+                    alt="GreenAgro"
+                    class="logo__img"
+                  />
+                </a>
+                <div class="bd-font w-color footer__info">
+                  GreenAgro <br />Agroinvest in the future
+                </div>
+              </div>
+            </div>
+            <div class="col-md-auto">
+              <div class="footer__row d-flex flex-wrap">
+                <div class="footer-col">
+                  <div class="sb-font accent-lt-color footer-col__title">
+                    NAVIGATION
+                  </div>
+                  <nav class="footer-col__nav">
+                    <ul>
+                      <li><a href="/">Main page</a></li>
+                      <li><a href="/about.html">About us</a></li>
+                      <li><a href="/reviews.html">Reviews (<b>625</b>)</a></li>
+                    </ul>
+                    <ul>
+                      <li><a href="/bounty.html">Bounty</a></li>
+                      <li><a href="/faq.html">FAQ</a></li>
+                      <li><a href="/support.html">Support</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="footer-col">
+                  <div class="sb-font accent-lt-color footer-col__title">
+                    FOR INVESTORS
+                  </div>
+                  <nav class="footer-col__nav">
+                    <ul>
+                      <li><a href="/account.html">My profile</a></li>
+                      <li><a href="/deposit.html">Deposit</a></li>
+                      <li><a href="/withdraw.html">Withdrawal</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-auto">
+              <a
+                href="https://t.me/grenagro_chat"
+                class="btn btn-small btn-round btn-solid-white footer__btn"
+                target="_blank"
+                style="width: 100%"
+              >
+                <img
+                  src="fonts/icon-telegram-accent.svg"
+                  alt="Telegram"
+                  class="btn__icon-left"
+                />
+                <span class="sb-font btn__title">@grenagro_chat</span>
+              </a>
+              <a
+                href="https://t.me/grenagro_channel"
+                class="btn btn-small btn-round btn-solid-white footer__btn"
+                target="_blank"
+                style="width: 100%; margin-top: 15px"
+              >
+                <img
+                  src="fonts/icon-telegram-accent.svg"
+                  alt="Telegram"
+                  class="btn__icon-left"
+                />
+                <span class="sb-font btn__title">@grenagro_channel</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row g-0 align-items-center">
+            <div class="col-md-auto">
+              <div class="footer__copyright w-color">
+                2023 © All rights reserved
+              </div>
+            </div>
+            <div class="col-md-auto">
+              <a href="/policy.html" class="link link-accent-lt footer__policy"
+                >Privacy Policy</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="hidden">
+      <div class="popup popup-notice" id="popup-success">
+        <button class="popup__close js-popup-close"></button>
+        <div class="popup__inner d-flex flex-column align-items-center">
+          <img src="fonts/icon-success.svg" alt="success" class="popup__icon" />
+          <div class="popup__title">
+            <h4 id="infsuc"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="popup popup-notice" id="popup-wait">
+        <button class="popup__close js-popup-close"></button>
+        <div class="popup__inner d-flex flex-column align-items-center">
+          <img src="images/wait.gif" alt="wait" class="popup__icon" />
+        </div>
+      </div>
+      <div class="popup popup-notice" id="popup-error">
+        <button class="popup__close js-popup-close"></button>
+        <div class="popup__inner d-flex flex-column align-items-center">
+          <img src="fonts/icon-error.svg" alt="error" class="popup__icon" />
+          <div class="popup__title">
+            <h4 id="infero"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="popup popup-notice" id="popup-popneytr">
+        <button class="popup__close js-popup-close"></button>
+        <div class="popup__inner d-flex flex-column align-items-center">
+          <div class="popup__title">
+            <h4 id="infneytr"></h4>
+          </div>
+        </div>
+      </div>
+      <div class="popup popup-notice" id="popup-deposit">
+        <button class="popup__close js-popup-close"></button>
+        <div
+          class="popup__inner d-flex flex-column align-items-center"
+          id="infdep"
+        ></div>
+      </div>
+
+      <div class="popup popup-notice" id="popup-hashwaller">
+        <button class="popup__close js-popup-close"></button>
+        <div class="popup__inner d-flex flex-column align-items-center">
+          <img
+            src="fonts/icon-error.svg"
+            alt="error"
+            class="popup__icon"
+            id="erorhashimg"
+            style="display: none"
+          />
+          <div class="popup__title">
+            <h4 id="infhash"></h4>
+            <form
+              class="account-settings-block__content js-form"
+              method="POST"
+              onkeypress="if(event.keyCode == 13) return false;"
+              style="margin-top: 30px"
+            >
+              <div class="row align-items-end">
+                <div class="col-lg-12 col-xl-12">
+                  <label
+                    class="input input-with-title account-settings-block__item"
+                  >
+                    <span class="input__title">Enter a code</span>
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="input__icon"
+                    >
+                      <path
+                        d="M15.75 1.5C14.6959 1.49976 13.6565 1.74642 12.7149 2.22023C11.7734 2.69404 10.9559 3.38181 10.328 4.22844C9.7001 5.07506 9.27925 6.057 9.09917 7.09555C8.91909 8.13411 8.98479 9.20041 9.291 10.209L1.5 18V22.5H6L13.791 14.709C14.7194 14.9908 15.6977 15.0692 16.6591 14.9387C17.6206 14.8083 18.5426 14.4721 19.3624 13.953C20.1821 13.434 20.8804 12.7444 21.4095 11.9311C21.9386 11.1178 22.2862 10.2 22.4285 9.24025C22.5709 8.28049 22.5046 7.30132 22.2343 6.36948C21.964 5.43764 21.496 4.57502 20.8622 3.84042C20.2283 3.10582 19.4436 2.51649 18.5614 2.11261C17.6792 1.70872 16.7203 1.49978 15.75 1.5ZM15.75 13.5C15.2336 13.4997 14.7201 13.4234 14.226 13.2735L13.3657 13.0125L12.7305 13.6478L10.3448 16.0335L9.3105 15L8.25 16.0605L9.28425 17.0947L8.09475 18.2843L7.0605 17.25L6 18.3105L7.03425 19.3447L5.379 21H3V18.621L10.3515 11.2695L10.9875 10.6342L10.7265 9.774C10.4059 8.71724 10.4268 7.58631 10.786 6.54207C11.1453 5.49784 11.8247 4.59347 12.7275 3.95762C13.6304 3.32177 14.7108 2.98681 15.815 3.0004C16.9192 3.01398 17.9911 3.37542 18.878 4.03329C19.765 4.69116 20.4219 5.61197 20.7554 6.66473C21.0888 7.71749 21.0818 8.84859 20.7354 9.89714C20.3889 10.9457 19.7206 11.8583 18.8256 12.5051C17.9305 13.152 16.8543 13.5001 15.75 13.5Z"
+                      />
+                      <path
+                        d="M16.5 9C17.3284 9 18 8.32843 18 7.5C18 6.67157 17.3284 6 16.5 6C15.6716 6 15 6.67157 15 7.5C15 8.32843 15.6716 9 16.5 9Z"
+                      />
+                    </svg>
+                    <input
+                      type="password"
+                      name="hash_waller"
+                      autocomplete="new-password"
+                      value
+                      class="input__field input__field-icon input__field-small"
+                      placeholder="Enter a code"
+                    />
+                  </label>
+                </div>
+                <div class="col-lg-12 col-xl-12">
+                  <input
+                    type="button"
+                    id="button_hash"
+                    value="Confirm"
+                    class="btn btn-round btn-fill-accent-second btn-middle account-settings-block__item"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#popup-wait" id="popwait" hidden class="js-popup-btn"></a>
+    <a href="#popup-success" id="popsuc" hidden class="js-popup-btn"></a>
+    <a href="#popup-error" id="popero" hidden class="js-popup-btn"></a>
+    <a href="#popup-deposit" id="popdep" hidden class="js-popup-btn"></a>
+    <a href="#popup-popneytr" id="popneytr" hidden class="js-popup-btn"></a>
+    <a href="#popup-hashwaller" id="hashwaller" hidden class="js-popup-btn"></a>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
